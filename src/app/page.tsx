@@ -1,5 +1,5 @@
 "use client";
-import Head from "next/head";
+
 import Image from "next/image";
 
 import {
@@ -12,14 +12,7 @@ export default function Home() {
  
   return (
     <div className="min-h-screen bg-white">
-      <Head>
-        <title>TravelHub - Book Your Next Adventure</title>
-        <meta
-          name="description"
-          content="Find and book your perfect travel experience"
-        />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+     
 
       {/* Header/Navbar */}
       <header className="absolute top-0 left-0 right-0 z-50 ">
