@@ -1,19 +1,15 @@
 "use client";
 import Head from "next/head";
 import Image from "next/image";
-import { useState } from "react";
+
 import {
-  Search,
-  MapPin,
-  Calendar,
-  Users,
+
   ChevronRight,
   Star,
 } from "lucide-react";
 
 export default function Home() {
-  const [searchInput, setSearchInput] = useState("");
-
+ 
   return (
     <div className="min-h-screen bg-white">
       <Head>
@@ -81,7 +77,7 @@ export default function Home() {
               <span className="block text-white">Adventure</span>
             </h1>
             <p className="text-xl text-gray-200 mt-6 mb-8 max-w-lg ">
-              Experience the world's most breathtaking destinations with our
+              Experience the world&apos;s most breathtaking destinations with our
               curated travel packages.
             </p>
             <button className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-md text-lg font-medium transition-all hover:translate-y-[-2px]">
@@ -224,7 +220,7 @@ export default function Home() {
               </h2>
               <p className="text-gray-600 mb-6">
                 Discover the rich history, stunning architecture, and vibrant
-                cultures of Europe's most iconic destinations. Our expert guides
+                cultures of Europe&apos;s most iconic destinations. Our expert guides
                 will show you both famous landmarks and hidden gems.
               </p>
               <div className="flex justify-center lg:justify-start">
@@ -367,7 +363,7 @@ export default function Home() {
                   </div>
                 </div>
                 <p className="text-gray-600 mb-4">
-                  Explore the world's largest rainforest and encounter
+                  Explore the world&apos;s largest rainforest and encounter
                   incredible wildlife.
                 </p>
                 <div className="flex items-center justify-between">
